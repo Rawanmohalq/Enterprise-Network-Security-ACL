@@ -48,7 +48,6 @@ A central server provides network services, while an Extended ACL protects inter
 
 ---
 
-## Server Information
 
 | Service | Status |
 |---------|--------|
