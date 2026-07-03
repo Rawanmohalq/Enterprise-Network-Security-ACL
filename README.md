@@ -88,8 +88,8 @@ A central server provides network services, while an Extended ACL protects inter
 - Cisco Packet Tracer
 - Cisco IOS
 - VLAN
-- Router-on-a-Stick
 - 802.1Q Trunking
+- Router-on-a-Stick
 - DHCP
 - DNS
 - HTTP
@@ -99,4 +99,4 @@ A central server provides network services, while an Extended ACL protects inter
 
 ## Author
 
-**Rawan Alqahtani**
+Rawan Alqahtani
