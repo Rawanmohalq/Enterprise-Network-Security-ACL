@@ -22,7 +22,7 @@ A central server provides network services, while an Extended ACL protects inter
 
 ## Network Topology
 
-![Network Topology](Topology.jpeg)
+![Network topology](Topology.jpeg)
 
 ---
 
