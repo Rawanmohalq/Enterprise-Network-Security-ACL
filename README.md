@@ -4,7 +4,6 @@ Enterprise network security project using VLANs, Inter-VLAN Routing, DHCP, Serve
 
 ---
 
-# Enterprise Network Security ACL
 
 Enterprise network security project implemented in Cisco Packet Tracer.
 
