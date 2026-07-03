@@ -56,10 +56,11 @@ A central server provides network services, while an Extended ACL protects inter
 | HTTP | Enabled |
 | DHCP | Enabled |
 
-Server IP Address:
+## Server Information
 
-```
-192.168.20.10
+| Device | IP Address | VLAN | Services |
+|---------|------------|------|----------|
+| SRV1 | 192.168.20.10 | VLAN 20 | DNS, HTTP |
 ```
 
 ---
