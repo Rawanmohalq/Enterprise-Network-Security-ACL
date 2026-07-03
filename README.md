@@ -1,5 +1,10 @@
 # Enterprise-Network-Security-ACL
+
 Enterprise network security project using VLANs, Inter-VLAN Routing, DHCP, Server, and Extended ACLs in Cisco Packet Tracer.
+
+---
+
+# Enterprise Network Security ACL
 
 Enterprise network security project implemented in Cisco Packet Tracer.
 
@@ -21,7 +26,7 @@ A central server provides network services, while an Extended ACL protects inter
 
 ## Network Topology
 
-![Network topology](Topology.jpeg)
+![Network Topology](Topology.jpeg)
 
 ---
 
@@ -41,7 +46,7 @@ A central server provides network services, while an Extended ACL protects inter
 ## IP Addressing
 
 | VLAN | Department | Network | Gateway |
-|------|------------|----------------|---------------|
+|------|------------|---------|---------|
 | 10 | HR | 192.168.10.0/24 | 192.168.10.1 |
 | 20 | IT | 192.168.20.0/24 | 192.168.20.1 |
 | 30 | Guest | 192.168.30.0/24 | 192.168.30.1 |
@@ -51,43 +56,31 @@ A central server provides network services, while an Extended ACL protects inter
 ## Server Information
 
 | Device | IP Address | VLAN | Services |
-|---------|------------|------|----------|
+|--------|------------|------|----------|
 | SRV1 | 192.168.20.10 | VLAN 20 | DNS, HTTP |
-```
 
 ---
 
 ## Security Policy (Extended ACL)
 
-Guest VLAN (30):
-
-- Cannot access HR VLAN
-- Cannot access IT VLAN
-- Cannot access the Server
-
-HR VLAN (10):
-
-- Full communication allowed
-
-IT VLAN (20):
-
-- Full communication allowed
+| VLAN | Access Policy |
+|------|---------------|
+| Guest (30) | Cannot access HR VLAN |
+| Guest (30) | Cannot access IT VLAN |
+| Guest (30) | Cannot access Server |
+| HR (10) | Full communication allowed |
+| IT (20) | Full communication allowed |
 
 ---
 
 ## Verification
 
-✔ VLANs Configured
-
-✔ 802.1Q Trunk Enabled
-
-✔ Inter-VLAN Routing Working
-
-✔ DHCP Working
-
-✔ Extended ACL Implemented
-
-✔ Guest VLAN Successfully Isolated
+- ✅ VLANs Configured
+- ✅ 802.1Q Trunk Enabled
+- ✅ Inter-VLAN Routing Working
+- ✅ DHCP Working
+- ✅ Extended ACL Implemented
+- ✅ Guest VLAN Successfully Isolated
 
 ---
 
@@ -108,4 +101,3 @@ IT VLAN (20):
 ## Author
 
 **Rawan Alqahtani**
-
