@@ -117,4 +117,3 @@ IT VLAN (20):
 
 **Rawan Alqahtani**
 
-Computer Science Graduate – Network Security
