@@ -48,13 +48,6 @@ A central server provides network services, while an Extended ACL protects inter
 
 ---
 
-
-| Service | Status |
-|---------|--------|
-| DNS | Enabled |
-| HTTP | Enabled |
-| DHCP | Enabled |
-
 ## Server Information
 
 | Device | IP Address | VLAN | Services |
